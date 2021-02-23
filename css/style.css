@@ -1,0 +1,208 @@
+/*Обнуление - СТАРТ*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*Обнуление - КОНЕЦ*/
+html{
+    width: 100%;
+    max-width: 100%;
+}
+.container{ 
+	max-width: 1400px;/*ОГРАНИЧЕНИЕ КОНТЕНА 1400px*/
+	margin: 0 auto;/*КОНТЕЙНЕР ПО ЦЕНТРУ СТРАНИЦЫ*/
+	font-family: 'Lato', sans-serif;/*ШРИФТ ЛАТО ВО ВСЕХ КОНТЕЙНЕРАХ*/
+}
+header{
+	position: fixed;/*Фиксация шапки*/
+	width: 100%;
+	background-image: linear-gradient(to right, rgb(88, 101, 245), rgb(102, 112, 244), rgb(116, 123, 243), rgb(129, 134, 241), rgb(143, 145, 240), rgb(157, 156, 239), rgb(171, 166, 238), rgb(185, 177, 237), rgb(199, 188, 236), rgb(212, 199, 234), rgb(226, 210, 233), rgb(240, 221, 232));
+}
+h1 a{
+	color: #fff;
+}
+header-inner{
+	height: 60px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul{
+	display: flex;
+}
+li{
+	margin-left: 30px;
+}
+a{
+	font-size: 40px;
+	font-weight: 700;
+	padding: 20px;
+	color: #353c40;
+}
+.header_list{
+	padding-right: 30px;
+}
+li a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+li a:hover{
+	color: #000;
+}
+
+
+
+
+/*СТИЛИ MAIN STRAT*/
+.content{
+	padding-top: 50px;
+	background-image: url(..//img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner{
+	display: flex;
+	justify-content: flex-end;
+	padding: 175px 125px 200px 0;
+}
+.banner-inner{
+	max-width: 430px;
+}
+.banner-inner h1{
+	font-size: 38px;
+	font-weight: 800;
+	padding-bottom: 40px;
+}
+.banner-inner h2{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #000;
+}
+.btn_1{
+	padding-top: 40px;
+}
+.btn_1 a{
+	font-size: 20px;
+	color:white;
+	padding: 10px 20px 10px 20px;
+	background-image: linear-gradient(to top right, rgb(101, 115, 255), rgb(115, 122, 253), rgb(129, 129, 251), rgb(143, 137, 248), rgb(157, 144, 246), rgb(171, 151, 244), rgb(185, 158, 242), rgb(199, 165, 240), rgb(213, 172, 238), rgb(227, 180, 235), rgb(241, 187, 233), rgb(255, 194, 231));
+}
+.btn_1 a:hover{
+	border: 1px solid #0fb3ae;
+	background-color: #10c9c3;
+}
+.content_banner_box{
+	border: solid 1px green;
+	width: 100%;
+	height: 800px;
+}
+.about-row{
+	display: flex;
+	justify-content: center;
+}
+.about_us{
+	text-align: center;
+	max-width: 480px;
+	padding: 50px 0 50px 0;
+}
+.about_us h2{
+	padding-bottom: 20px;
+	color: black;
+	font-size: 30px;
+	font-weight: 800;
+}
+.about_us p{
+	padding-bottom: 20px;
+	font-size: 16px;
+	color: #808080;
+}
+.about-row2-bg{
+	background-color: #10c9c3;
+}
+.item-box{
+	display: flex;
+	color: white;
+	font-size: 12px;
+	width: 250px;
+}
+.about-row2{
+	padding: 100px 0 100px 0;
+	display: flex;
+	justify-content: space-around;
+}
+.item-box h2{
+	font-size: 15px;
+	padding-bottom: 5px;
+	color: white;
+}
+.item-box_icon{
+	width: 15%;
+}
+.item-box_text{
+	padding-left: 10px;
+}
+.gallery_box{
+	padding: 50px 0;
+}
+.gallery_box_img_box{
+	max-width: 320px;
+	max-height: 320px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.gallery_box_img_box_image{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.gallery_box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.video-block{
+	text-align: center;
+	padding-bottom: 100px;
+}
+/*СТИЛИ MAIN END*/
+
+/*СТИЛИ footer*/
+footer{
+	background-image: linear-gradient(to right, rgb(88, 101, 245), rgb(102, 112, 244), rgb(116, 123, 243), rgb(129, 134, 241), rgb(143, 145, 240), rgb(157, 156, 239), rgb(171, 166, 238), rgb(185, 177, 237), rgb(199, 188, 236), rgb(212, 199, 234), rgb(226, 210, 233), rgb(240, 221, 232));
+	height: 200px;
+}
+footer-inner{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+}
+h4{
+	color: #fff;
+	font-size: 20px;
+	padding-left: 30px;
+}
+.footer_nav{
+  padding-right: 30px;
+}
+.footer_nav a{
+	color: #fff;
+	font-weight: 700;
+}
+.footer_nav a:hover{
+	color: #000;
+}
+/*СТИЛИ footer*/
